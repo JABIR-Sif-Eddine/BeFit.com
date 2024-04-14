@@ -1,0 +1,297 @@
+body {
+  background-color: rgb(135, 199, 234);
+  background-image: url("./../../public/Header\ B.png");
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: large;
+}
+.a:hover {
+  transition: ease-in 0.2s;
+  transform: scale(1.5, 1.5);
+}
+nav {
+  height: 130px;
+  background-color: rgb(120, 183, 250);
+  padding: 30px;
+  margin-bottom: 10px;
+  background-image: url("./../../public/Header\ B.png");
+}
+nav img {
+  width: 240px;
+}
+.navImg {
+  width: 80px;
+}
+.toNav {
+  position: fixed;
+  height: 33px;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  background-color: rgb(120, 183, 250);
+  border-radius: 10px;
+  border: 1px solid black;
+}
+img {
+  max-width: 400px;
+}
+h1 {
+  text-align: center;
+  margin: 50px;
+  font-weight: bolder;
+}
+section {
+  margin-bottom: 50px;
+}
+.d1 {
+  width: 300px;
+}
+p,
+button {
+  margin-left: 30px;
+}
+.BMI {
+  width: 500px;
+}
+
+.button2 {
+  font-size: 30px;
+  font-weight: bolder;
+  width: 300px;
+  margin-left: 530px;
+}
+.button3 {
+  font-size: 20px;
+  font-weight: bolder;
+  width: 300px;
+  margin-top: 10px;
+}
+.s2 div {
+  text-align: center;
+  width: 250px;
+}
+.s2 img {
+  max-width: 100px;
+}
+.contact {
+  margin-left: 400px;
+  margin-bottom: 80px;
+}
+.contact input {
+  width: 500px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+.contact textarea {
+  margin-left: 120px;
+  margin-top: 30px;
+}
+.contact button {
+  margin-top: 20px;
+  margin-left: 170px;
+}
+.change {
+  float: right;
+}
+footer {
+  margin: 20px;
+}
+.signUpPage {
+  background-image: url("./../../public/bgimage.jpg");
+  background-size: 1400px;
+  height: 950px;
+}
+.signUpPage nav {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.signUpPage nav img {
+  border: 1px solid black;
+  padding-bottom: 1.3rem;
+  box-shadow: #fff;
+}
+
+.signUp {
+  padding-top: 20px;
+  text-align: center;
+  margin-left: 420px;
+  background-color: white;
+  width: 500px;
+  height: 750px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.signUp input,
+select {
+  margin: 10px;
+  width: 420px;
+  border-radius: 10px;
+}
+.signUp label {
+  font-weight: bold;
+}
+.pdp {
+  margin: 20px;
+  padding: 30px;
+  background-color: white;
+  height: 450px;
+  border-radius: 15px;
+}
+.pdp img {
+  margin-bottom: 15px;
+}
+.pdp button {
+  margin-left: 600px;
+  width: 100px;
+}
+
+table th,
+td {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+table th {
+  width: 150px;
+  padding: 10px;
+}
+
+.meal {
+  font-size: xx-large;
+  background-color: rgb(10, 72, 195);
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 30px;
+}
+.addfood {
+  text-align: center;
+}
+.addfood input {
+  width: 900px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: rgb(135, 199, 234);
+  border: 2px solid grey;
+}
+.foodbtn {
+  font-size: x-large;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 430px;
+  margin-top: 10px;
+  width: 500px;
+  border: 2px solid #ff7a00;
+  border-radius: 20px;
+  height: 100px;
+}
+.LoginPage {
+  background-image: url("./../../public/bgimage.jpg");
+  background-size: 1400px;
+  height: 682px;
+}
+.Login {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  text-align: center;
+  margin-top: 80px;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-left: 250px;
+  margin-right: 300px;
+  height: 450px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.Login img {
+  padding-left: 10px;
+  border-left: 1px solid black;
+}
+.Login form button {
+  background-color: rgb(120, 183, 250);
+}
+.Login label {
+  font-weight: bold;
+  font-size: x-large;
+}
+.Login input {
+  margin-bottom: 20px;
+  width: 300px;
+}
+.fav {
+  background-image: url("./../../public/burger.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100px;
+  height: 100px;
+}
+.favorite {
+  text-align: center;
+}
+.Catego {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+
+.Catego img {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.CategoriesImg:hover {
+  transition: ease-in 0.2s;
+  transform: scale(1.1, 1.1);
+}
+.catbtn {
+  width: 550px;
+  margin-left: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+.catbtn ul li {
+  border-bottom: 1px solid black;
+  width: 500px;
+  margin: 10px;
+}
+.catbtn img {
+  float: right;
+}
+
+.Exers {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+}
+.exer {
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.exer img {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mealAdd {
+  background-color: rgb(10, 72, 195);
+  text-align: center;
+  margin-left: 560px;
+  width: 200px;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 10px;
+}
