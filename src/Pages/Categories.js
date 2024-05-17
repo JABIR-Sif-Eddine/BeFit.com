@@ -6,10 +6,22 @@ const Categories = () => {
       <Navbar />
       <div className="Catego">
         <Link className="CategoriesImg" to="/vege">
-          <img className="vege" src="vege.png" alt="" width="200px" />
+          <img className="vege" src="vege.png" alt="vege" width="200px" />
         </Link>
         <Link className="CategoriesImg" to="/Fruits">
-          <img className="fruits" src="Fruits.png" alt="" />
+          <img className="fruits" src="Fruits.png" alt="frt" />
+        </Link>
+        <Link className="CategoriesImg" to="/vege">
+          <img className="vege" src="vege.png" alt="vege" width="200px" />
+        </Link>
+        <Link className="CategoriesImg" to="/Fruits">
+          <img className="fruits" src="Fruits.png" alt="frt" />
+        </Link>
+        <Link className="CategoriesImg" to="/vege">
+          <img className="vege" src="vege.png" alt="vege" width="200px" />
+        </Link>
+        <Link className="CategoriesImg" to="/Fruits">
+          <img className="fruits" src="Fruits.png" alt="frt" />
         </Link>
         {/* <Link className="CategoriesImg" to="" ><img className="col" src="vege.png" alt="" /></Link>
         <Link className="CategoriesImg" to="" ><img className="col" src="Fruits.png" alt="" /></Link>

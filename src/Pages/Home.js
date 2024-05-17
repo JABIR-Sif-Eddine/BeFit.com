@@ -8,7 +8,7 @@ const Home = () => {
         className="d-flex justify-content-around  align-items-center"
         id="nav"
       >
-        <img src="image.png"></img>
+        <img src="image.png" alt="Home"></img>
         <Link to="/" className=" a text-black">
           Home
         </Link>
@@ -27,7 +27,7 @@ const Home = () => {
         </Link>
       </nav>
       <a href="#nav" className="toNav">
-        <img src="arrowUp.png" alt="" width="20px" />
+        <img src="arrowUp.png" alt="arrow" width="20px" />
       </a>
       <section className=" s1 d-flex justify-content-around  align-items-center ">
         <div className="d1">
@@ -88,7 +88,7 @@ const Home = () => {
       <section className="s2 d-flex justify-content-around  align-items-start">
         <div>
           <h2>Section "Nautrition"</h2>
-          <img src="img5.png"></img>
+          <img src="img5.png" alt="5"></img>
           <p>
             The site must calculate the calorie intake for each meal and update
             the daily intake in real time. Users can search foods by name and
@@ -97,7 +97,7 @@ const Home = () => {
         </div>
         <div>
           <h2>Section "Exercices"</h2>
-          <img src="img6.png"></img>
+          <img src="img6.png" alt="6"></img>
           <p>
             Users can access a library of exercise This section allows users to
             view videos and images illustrating exercises probably related to
@@ -106,7 +106,7 @@ const Home = () => {
         </div>
         <div>
           <h2>Calories Calculation</h2>
-          <img src="img7.png"></img>
+          <img src="img7.png" alt="7"></img>
           <p>
             Offer the ability to record meals consumed to calculate real-time
             caloric intake and monitor progress.

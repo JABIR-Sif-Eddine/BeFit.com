@@ -1,38 +1,4 @@
 {
-  "Users": [
-    {
-      "id": "26a0",
-      "userName": "vv",
-      "email": "vv@vv",
-      "password": "123",
-      "birthday": "2002-12-12",
-      "gender": "Male",
-      "height": "123",
-      "weight": "123",
-      "Objectif": "Gain"
-    },
-    {
-      "id": "a107",
-      "userName": "vv",
-      "email": "vv@ff",
-      "password": "123",
-      "birthday": "2002-12-12",
-      "gender": "Male",
-      "height": "123",
-      "weight": "123",
-      "Objectif": "Gain"
-    },
-    {
-      "id": "e57f",
-      "userName": "najwa kamal",
-      "email": "najwakamal@gmail",
-      "password": "123",
-      "birthday": "2002-12-12",
-      "gender": "Female",
-      "height": "123",
-      "weight": "123",
-      "Objectif": "Build"
-    }
-  ],
+  "Users": [],
   "Meals": []
 }

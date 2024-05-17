@@ -1,9 +1,9 @@
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 const Login = () => {
-  //   const navigate = useNavigate();
-  //   const handleNavigate = () => {
-  //     navigate("");
-  //   };
+    // const navigate = useNavigate();
+    // const handleNavigate = () => {
+    //   navigate("");
+    // };
   return (
     <body className="LoginPage">
       <nav className="d-flex justify-content-around  align-items-center">

@@ -4,7 +4,7 @@ const Fruits = () => {
   return (
     <>
       <Navbar />
-      <h1 className="meal">Vegetables</h1>
+      <h1 className="meal">Fruits</h1>
       <div className="catbtn">
         <ul>
           <Link to="">
