@@ -36,7 +36,7 @@ const SignUp = () => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(user),
     }).then(() => {
-      console.log("new blog added");
+      console.log("new user added");
     });
     navigate("/Login");
   };

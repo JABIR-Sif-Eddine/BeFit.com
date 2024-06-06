@@ -1,7 +1,18 @@
 body {
-  background-color: rgb(135, 199, 234);
-  background-image: url("./../../public/Header\ B.png");
+  background-color: #b1b1b1;
   background-repeat: no-repeat;
+}
+.firstSection{
+  background-image: url("./../../public/newbgimage.png");
+  background-repeat: no-repeat;
+  background-size: 1350px;
+  height: 700px;
+}
+.firstSectionBtn{
+  width: 200px;
+  font-size: larger;
+  margin-top: 400px;
+
 }
 a {
   text-decoration: none;
@@ -13,11 +24,10 @@ a {
   transform: scale(1.5, 1.5);
 }
 nav {
-  height: 130px;
-  background-color: rgb(120, 183, 250);
+  height: 100px;
+  background-color: #b1b1b1;
   padding: 30px;
   margin-bottom: 10px;
-  background-image: url("./../../public/Header\ B.png");
 }
 nav img {
   width: 240px;
@@ -34,7 +44,7 @@ nav img {
   width: 30px;
   margin-right: 30px;
   margin-bottom: 20px;
-  background-color: rgb(120, 183, 250);
+  background-color: #b1b1b1;
   border-radius: 10px;
   border: 1px solid black;
 }
@@ -162,13 +172,14 @@ table th {
   padding: 10px;
 }
 
-.meal {
+.Catmeal {
   font-size: xx-large;
   background-color: rgb(10, 72, 195);
   margin-left: 500px;
   margin-right: 500px;
   border-radius: 30px;
 }
+
 .addfood {
   text-align: center;
 }
@@ -176,8 +187,9 @@ table th {
   width: 900px;
   height: 40px;
   margin-top: 30px;
-  background-color: rgb(135, 199, 234);
+  background-color: #b1b1b1;
   border: 2px solid grey;
+  background-color: white;
 }
 .foodbtn {
   font-size: x-large;
@@ -278,12 +290,17 @@ table th {
   width: 200px;
   height: 150px;
   margin: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: white;
 }
 .exer img {
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 15px;
+}
+.exer p{
+  color: black;
+  font-size: large;
+  text-align: center;
 }
 
 .mealAdd {

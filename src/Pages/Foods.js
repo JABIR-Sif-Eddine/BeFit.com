@@ -6,10 +6,7 @@ const Foods = () => {
   const CatNavigate = () => {
     navigateCat("/Categories");
   };
-  const navigateFav = useNavigate();
-  const FavNavigate = () => {
-    navigateFav("/Favorites");
-  };
+
   const navigateAdd = useNavigate();
   const AddNavigate = () => {
     navigateAdd("/AddFood");
@@ -17,7 +14,7 @@ const Foods = () => {
   return (
     <>
       <Navbar />
-      <h1 className="meal">Foods</h1>
+      <h1 className="Catmeal">Foods</h1>
       <button className="foodbtn" onClick={CatNavigate}>
         <img src="catimg.png" alt="" width="60px" />
         Categories
@@ -25,14 +22,8 @@ const Foods = () => {
       </button>
 
       <br />
-      <button className="foodbtn" onClick={FavNavigate}>
-        <img src="favimg.png" alt="" width="60px" />
-        Favorites
-        <img src="arrow.png" alt="" width="60px" />
-      </button>
-      <br />
-      <button className="foodbtn"onClick={AddNavigate}>
-        <img src="suggest.png" alt="" width="60px"  />
+      <button className="foodbtn" onClick={AddNavigate}>
+        <img src="suggest.png" alt="" width="60px" />
         Suggest Food We should add
         <img src="arrow.png" alt="" width="60px" />
       </button>

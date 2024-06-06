@@ -1,4 +1,171 @@
 {
-  "Users": [],
-  "Meals": []
+  "Users": [
+    {
+      "id": "6415",
+      "userName": "saif",
+      "email": "cc@cc",
+      "password": "123123",
+      "birthday": "2002-12-13",
+      "gender": "Male",
+      "height": "186",
+      "weight": "64",
+      "Objectif": "Gain"
+    }
+  ],
+  "categories": [
+    {
+      "name": "vege",
+      "id": "3a68"
+    },
+    {
+      "name": "Fruits",
+      "id": "3294"
+    },
+    {
+      "name": "suggestedMeals",
+      "id": "5cce"
+    },
+    {
+      "name": "Fruits",
+      "id": "903e"
+    },
+    {
+      "name": "snacks",
+      "id": "f4ac"
+    },
+    {
+      "name": "Fruits",
+      "id": "3505"
+    }
+  ],
+  "exercices": [
+    {
+      "type": "legs",
+      "video": "link",
+      "id": "ecd9"
+    }
+  ],
+  "suggestedMeals": [
+    {
+      "id": "5e0b",
+      "name": "lbortoqal",
+      "description": "orange",
+      "Carbos": "12",
+      "fat": "12",
+      "protein": "12"
+    },
+    {
+      "id": "b3a6",
+      "name": "laymon",
+      "description": "orange",
+      "Carbos": "12",
+      "fat": "12",
+      "protein": "12"
+    }
+  ],
+  "fruits": [
+    {
+      "name": "apple",
+      "infos": [
+        {
+          "carbo": "0.58 g",
+          "fat": "0.0 g",
+          "protein": "0.0 g"
+        }
+      ],
+      "id": "cb2b"
+    },
+    {
+      "name": "orange",
+      "infos": [
+        {
+          "carbo": "0.58 g",
+          "fat": "0.0 g",
+          "protein": "0.0 g"
+        }
+      ],
+      "id": "41f7"
+    },
+    {
+      "name": "kiwi",
+      "infos": [
+        {
+          "carbo": "0.58 g",
+          "fat": "0.0 g",
+          "protein": "0.0 g"
+        }
+      ],
+      "id": "7c8c"
+    }
+  ],
+  "snacks": [
+    {
+      "name": "almonds",
+      "infos": [
+        {
+          "carbo": "0.58 g",
+          "fat": "0.0 g",
+          "protein": "0.0 g"
+        }
+      ],
+      "id": "6256"
+    },
+    {
+      "name": "greek yogurt",
+      "infos": [
+        {
+          "carbo": "0.58 g",
+          "fat": "0.0 g",
+          "protein": "0.0 g"
+        }
+      ],
+      "id": "1da6"
+    },
+    {
+      "name": "dried fruit",
+      "infos": [
+        {
+          "carbo": "0.58 g",
+          "fat": "0.0 g",
+          "protein": "0.0 g"
+        }
+      ],
+      "id": "94fc"
+    }
+  ],
+  "vege": [
+    {
+      "name": "potato",
+      "infos": [
+        {
+          "carbo": "0.58 g",
+          "fat": "0.0 g",
+          "protein": "0.0 g"
+        }
+      ],
+      "id": "5361"
+    },
+    {
+      "name": "tomato",
+      "infos": [
+        {
+          "carbo": "0.58 g",
+          "fat": "0.0 g",
+          "protein": "0.0 g"
+        }
+      ],
+      "id": "eb56"
+    },
+    {
+      "name": "pumbkin",
+      "infos": [
+        {
+          "carbo": "0.58 g",
+          "fat": "0.0 g",
+          "protein": "0.0 g"
+        }
+      ],
+      "id": "5b9c"
+    }
+  ]
 }

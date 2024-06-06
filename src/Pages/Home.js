@@ -15,35 +15,21 @@ const Home = () => {
         <Link to="/Foods" className="a text-black">
           Foods
         </Link>
-        <Link to="/Calories" className="a text-black">
-          Calories
-        </Link>
         <Link to="/Exercises" className="a text-black">
           Exercises
         </Link>
         <Link to="/Login">
-          {" "}
           <button className="btn btn-warning ">Login</button>
         </Link>
       </nav>
       <a href="#nav" className="toNav">
         <img src="arrowUp.png" alt="arrow" width="20px" />
       </a>
-      <section className=" s1 d-flex justify-content-around  align-items-center ">
-        <div className="d1">
-          <h2>Reach your goals with BeFit</h2>
-          <p>
-            BeFit empowers you to reach your fitness goals. Access tailored
-            workouts, personalized nutrition advice, Start your journey to a
-            healthier, more vibrant life with us.
-          </p>
+      <section className=" firstSection  d-flex justify-content-around  align-items-center ">
           <Link to="/signUp">
-            <button className="btn btn-warning">Get Starter</button>
+            <button className=" firstSectionBtn btn btn-warning">Get Starter</button>
           </Link>
-        </div>
-        <img src="img1.png" alt="1"></img>
       </section>
-      <h1>Hit your health goals effortlessly with BeFit's</h1>
       <section>
         <div className=" s1 d-flex justify-content-around  align-items-center ">
           <img src="img2.png" alt="img2"></img>

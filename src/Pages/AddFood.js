@@ -2,29 +2,29 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "./nav";
 const AddFood = () => {
-  const [mealName, setMealName] = useState("");
+  const [name, setName] = useState("");
   const [description, setDescription] = useState("");
-  const [glusides, setGlusides] = useState("");
+  const [Carbos, setCarbos] = useState("");
   const [protein, setProtein] = useState("");
   const [fat, setFat] = useState("");
   const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const user = {
-      mealName,
+    const Meal = {
+      name,
       description,
-      glusides,
-      protein,
+      Carbos,
       fat,
+      protein,
     };
-      fetch("http://localhost:8000/Meals", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(user),
-      });
-      alert("Meal Added");
-      navigate("/Foods");
+    fetch("http://localhost:8000/suggestedMeals", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(Meal),
+    });
+    alert("Meal Added");
+    navigate("/Foods");
   };
   return (
     <>
@@ -34,8 +34,8 @@ const AddFood = () => {
         <input
           type="text"
           required
-          value={mealName}
-          onChange={(e) => setMealName(e.target.value)}
+          value={name}
+          onChange={(e) => setName(e.target.value)}
           placeholder="Meal Name"
         />
         <br />
@@ -51,9 +51,9 @@ const AddFood = () => {
         <input
           type="number"
           required
-          value={glusides}
-          onChange={(e) => setGlusides(e.target.value)}
-          placeholder="Glusides (/g)"
+          value={Carbos}
+          onChange={(e) => setCarbos(e.target.value)}
+          placeholder="Carbos (/g)"
         />
         <br />
 

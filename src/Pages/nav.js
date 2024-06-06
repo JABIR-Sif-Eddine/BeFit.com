@@ -14,9 +14,6 @@ const navbar = () => {
         <Link to="/Foods" className="a text-black">
           Foods
         </Link>
-        <Link to="/Calories" className="a text-black">
-          Calories
-        </Link>
         <Link to="/Exercises" className="a text-black">
           Exercises
         </Link>
