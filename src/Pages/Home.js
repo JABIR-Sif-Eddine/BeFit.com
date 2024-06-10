@@ -12,8 +12,8 @@ const Home = () => {
         <Link to="/" className=" a text-black">
           Home
         </Link>
-        <Link to="/Foods" className="a text-black">
-          Foods
+        <Link to="/Nautrition" className="a text-black">
+          Nautrition
         </Link>
         <Link to="/Exercises" className="a text-black">
           Exercises
@@ -27,7 +27,7 @@ const Home = () => {
       </a>
       <section className=" firstSection  d-flex justify-content-around  align-items-center ">
           <Link to="/signUp">
-            <button className=" firstSectionBtn btn btn-warning">Get Starter</button>
+            <button className="firstSectionBtn btn btn-warning">Get Starter</button>
           </Link>
       </section>
       <section>
@@ -102,13 +102,13 @@ const Home = () => {
       <section className="contact">
         <label className="fw-bolder fs-1">Contact US</label>
         <br />
-        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Name" name="contactName" />
         <br />
-        <input type="text" placeholder="E-mail" />
+        <input type="text" placeholder="E-mail" name="contactEmail" />
         <br />
-        <input type="text" placeholder="Phone" />
+        <input type="text" placeholder="Phone" name="contactPhone" />
         <br />
-        <textarea cols="30" rows="10"></textarea>
+        <textarea cols="30" rows="10" name="contactMessage"></textarea>
         <br />
         <button className="btn btn-warning">Send Message</button>
       </section>

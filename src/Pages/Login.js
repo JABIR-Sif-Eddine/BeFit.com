@@ -6,7 +6,7 @@ const Login = () => {
     // };
   return (
     <body className="LoginPage">
-      <nav className="d-flex justify-content-around  align-items-center">
+      <nav className="d-flex justify-content-around   align-items-center">
         <a href="/">
           <img src="image.png" alt="" />
         </a>
@@ -15,11 +15,11 @@ const Login = () => {
         <form>
           <label>Email</label>
           <br />
-          <input type="email" required />
+          <input type="email" name="loginEmail" required />
           <br />
           <label>Password</label>
           <br />
-          <input type="password" required />
+          <input type="password" name="loginPassword" required />
           <br />
           <button className="btn btn-primary">Submit</button>
         </form>

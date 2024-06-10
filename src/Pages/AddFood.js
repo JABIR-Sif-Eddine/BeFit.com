@@ -33,6 +33,7 @@ const AddFood = () => {
       <form onSubmit={handleSubmit} className="addfood">
         <input
           type="text"
+          name="mealName"
           required
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -41,6 +42,7 @@ const AddFood = () => {
         <br />
         <input
           type="text"
+          name="mealDescription"
           required
           value={description}
           onChange={(e) => setDescription(e.target.value)}
@@ -50,6 +52,7 @@ const AddFood = () => {
 
         <input
           type="number"
+          name="carbos"
           required
           value={Carbos}
           onChange={(e) => setCarbos(e.target.value)}
@@ -59,6 +62,7 @@ const AddFood = () => {
 
         <input
           type="number"
+          name="protein"
           required
           value={protein}
           onChange={(e) => setProtein(e.target.value)}
@@ -68,6 +72,7 @@ const AddFood = () => {
 
         <input
           type="number"
+          name="fat"
           required
           value={fat}
           onChange={(e) => setFat(e.target.value)}

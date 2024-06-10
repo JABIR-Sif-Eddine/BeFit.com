@@ -53,6 +53,7 @@ const SignUp = () => {
           <br />
           <input
             type="text"
+            name="signupName"
             required
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
@@ -62,6 +63,7 @@ const SignUp = () => {
           <br />
           <input
             type="email"
+            name="signupEmail"
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -71,6 +73,7 @@ const SignUp = () => {
           <br />
           <input
             type="password"
+            name="signupPassword"
             required
             value={password}
             onChange={(e) => setPassword(e.target.value)}
@@ -80,6 +83,7 @@ const SignUp = () => {
           <br />
           <input
             type="password"
+            name="repeatPassword"
             required
             value={repassword}
             onChange={(e) => setRePassword(e.target.value)}
@@ -91,6 +95,7 @@ const SignUp = () => {
           <br />
           <input
             type="Date"
+            name="birthday"
             required
             value={birthday}
             onChange={(e) => setBirthday(e.target.value)}
@@ -100,6 +105,7 @@ const SignUp = () => {
           <br />
           <input
             type="number"
+            name="height"
             required
             value={height}
             onChange={(e) => setHeight(e.target.value)}
@@ -109,6 +115,7 @@ const SignUp = () => {
           <br />
           <input
             type="number"
+            name="weight"
             required
             value={weight}
             onChange={(e) => setWeight(e.target.value)}
@@ -118,6 +125,7 @@ const SignUp = () => {
           <br />
           <select
             required
+            name="gender"
             value={gender}
             onChange={(e) => setGender(e.target.value)}
           >
@@ -134,6 +142,7 @@ const SignUp = () => {
           <br />
           <select
             required
+            name="objectif"
             value={Objectif}
             onChange={(e) => setObjectif(e.target.value)}
           >
@@ -146,9 +155,6 @@ const SignUp = () => {
             </option>
             <option value="mentain" key="">
               Maintain Weight
-            </option>
-            <option value="Build" key="">
-              Build muscle
             </option>
           </select>
           <br />
